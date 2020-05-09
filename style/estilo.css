@@ -1,0 +1,55 @@
+body{
+  font-family: helvetica, sans-serif;
+
+  color: white;
+
+  background: black;
+}
+
+
+a, a:visited, a:active{
+  color: inherit;
+}
+
+a:hover{
+  color: #ddd;
+}
+
+
+hr{
+  border: solid 1px white;
+}
+
+.first{
+  background-image: url("img/hd_nasa_bg_02.jpg");
+  background-position: bottom;
+  background-size: cover;
+  -webkit-mask-image: linear-gradient(to top, transparent 0%, black 25%);
+  mask-image: linear-gradient(to top, transparent 0%, black 25%);
+}
+
+.first h1{
+  text-shadow: 0px 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+article{
+  background-color: white;
+  color: black;
+}
+
+
+
+
+@media (max-width: 1300px) {
+  .header-right{
+    background-color: rgba(0,0,0,0.5);
+  }
+
+  a:hover{
+    opacity: 0.9;
+  }
+
+
+
+
+}
