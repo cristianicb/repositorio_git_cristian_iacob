@@ -10,10 +10,14 @@ let current;
 let previous;
 
 function setup() {
-  createCanvas(windowWidth, windowHeight);
+  createCanvas(windowWidth-30, windowHeight-30);
   current = createVector(0,0);
   previous = createVector(0,0);
 };
+
+function windowResized() {
+  resizeCanvas(windowWidth-30, windowHeight-30);
+}
 
 function draw() {
   background(11, 61, 145);

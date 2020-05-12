@@ -49,15 +49,22 @@ article{
   color:#0B3D91;
 }
 
+.contenedor_texto{
+  z-index: 10;
+  overflow: hidden;
+  width: 100%;
+  position: absolute;
+  top: 200px;
+
+}
+
 .tutorial{
   visibility: visible;
   opacity: 1;
-  position: absolute;
   text-align: center;
   left: -9999px;
   right: -9999px;
   margin: auto;
-  top: 200px;
 
   font-size: 1.5em;
 
